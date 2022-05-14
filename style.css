@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Coco;
+    src: url(./fonts/Cocogoose.ttf);
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    height: 120vh;
+    font-family: Coco;
+}
+
+.header {
+    height: 80px;
+    background-color: #8800ff;
+    border-bottom: 4px solid #37004d;
+}
+
+.main-logo {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.buy-button a {
+    text-decoration: none;
+    font-family: Coco;
+    background-color: #ff9d00;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    transition: 0.5s ease-out;  
+}
+
+.buy-button a:hover {
+    font-family: Coco;
+    background-color: #fff;
+    color: #ff9d00;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 8px rgba(255, 255, 255, 0.363);   
+}
+
+.test {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    background: rgb(0,154,217);
+    background: linear-gradient(322deg, rgba(250,129,66,1) 0%, rgba(255,64,136,1) 100%);
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+
+.footer {
+    height: 200px;
+    background-color: #8800ff;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.navbar li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 0.5s ease-out;
+}
+
+.navbar li a:hover{
+    background: #37004d;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.svg {
+    background-color: #8800ff;
+}
